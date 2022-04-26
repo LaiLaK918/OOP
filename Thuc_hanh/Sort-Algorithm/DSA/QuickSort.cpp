@@ -26,11 +26,11 @@ void QuickSort::quickSort(int left, int right) {
 		while (arr[j] > x) j--;
 		while (arr[i] < x) i++;
 		if (i <= j) {
-			_swap(arr[i], arr[j]);
+			std::swap(arr[i], arr[j]);
 			i++;
 			j--;
 		}
-	} while (i <= j);
+	} while (i < j);
 	if (left < j) quickSort(left, j);
 	if (right > i) quickSort(i, right);
 }

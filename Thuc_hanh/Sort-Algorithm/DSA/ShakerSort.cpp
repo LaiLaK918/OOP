@@ -19,14 +19,14 @@ void ShakerSort::Sorted() {
 	while (l < r) {
 		for (j = r; j > l; j--) {
 			if (arr[j] < arr[j - 1]) {
-				_swap(arr[j], arr[j - 1]);
+				std::swap(arr[j], arr[j - 1]);
 				k = j;
 			}
 		}
 		l = k;
 		for (int j = l; j < r; j++) {
 			if (arr[j] > arr[j + 1]) {
-				_swap(arr[j], arr[j + 1]);
+				std::swap(arr[j], arr[j + 1]);
 				k = j;
 			}
 		}

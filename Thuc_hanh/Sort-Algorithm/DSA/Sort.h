@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <fstream>
+using namespace std;	
 
 class Sort
 {
@@ -21,17 +22,17 @@ public:
 
 	virtual void Sorted() = 0;
 
-	void print();
+	virtual void print();
 
 	inline int getN();
 
-	inline void _swap(int&, int&);
-
-	inline void nhapMang(std::fstream&);
+	inline virtual void input(std::fstream&);
 
 	inline bool ascending(const int&, const int&);
 
 	inline bool decending(const int&, const int&);
+
+	virtual void inputRan();
 };
 
 #endif // !SORT
