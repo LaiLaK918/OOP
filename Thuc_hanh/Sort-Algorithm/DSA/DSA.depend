@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1645773055 source:g:\code\c++ project\dsa\dsa\binarytree.cpp
+	<iostream>
+	<string>
+
+1645766404 source:g:\code\c++ project\dsa\dsa\dup.cpp
+	<iostream>
+
+1645616770 source:g:\code\c++ project\dsa\dsa\heap sort.cpp
+	<iostream>
+	<fstream>
+
+1645617837 source:g:\code\c++ project\dsa\dsa\quicksort.cpp
+	<iostream>
+
+1645617837 source:g:\code\c++ project\dsa\dsa\radixsort.cpp
+	<iostream>
+
+1645702879 source:g:\code\c++ project\dsa\dsa\shell sort.cpp
+	<iostream>
+	<fstream>
+
