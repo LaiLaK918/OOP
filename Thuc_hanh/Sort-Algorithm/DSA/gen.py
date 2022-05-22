@@ -1,4 +1,4 @@
-from random import randint, shuffle
+from random import randint
 
 with open("a.txt", 'w') as f:
     n = randint(0, 1000)

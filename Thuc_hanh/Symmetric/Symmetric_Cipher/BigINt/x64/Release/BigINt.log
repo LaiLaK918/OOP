@@ -1,0 +1,6 @@
+﻿  Scanning sources for module dependencies...
+  FFE_Engine.h
+  Compiling...
+  FFE_Engine.h
+D:\Code\VSC\Cpp\OOP\Thuc_hanh\Symmetric\Symmetric_Cipher\BigINt\FFE_Engine.h(13,23): error C2993: 'CryptoPP::Integer': is not a valid type for non-type template parameter 'P'
+D:\Môn học\MMH\cryptopp\algebra.h(15,7): message : 'Integer' is not a literal class type
